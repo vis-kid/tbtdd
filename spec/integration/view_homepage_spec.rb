@@ -6,3 +6,4 @@ feature 'View the homepage' do
 		expect(page).to have_css 'title', text: 'Todos'
 		expect(page).to have_css '[data-role="description"]'
 	end
+end
