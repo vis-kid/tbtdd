@@ -7,6 +7,10 @@ gem 'high_voltage'
 group :test, :development do
   gem 'rspec-rails'
 	gem 'capybara', '1.1.4'
+	gem 'simplecov'
+end
+
+group :test do
 	gem 'factory_girl_rails', '~> 4.0'
 end
 
